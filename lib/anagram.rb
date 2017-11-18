@@ -7,7 +7,7 @@ class Anagram
   end
 
   def match(word) #take in an array and return all matches in an array 
-
+    word.collect {|w| } 
 
   end
 end

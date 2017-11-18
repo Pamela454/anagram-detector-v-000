@@ -1,12 +1,12 @@
 # Your code goes here!
 class Anagram
-  attr_accessor :word
+  attr_accessor :words
 
   def initialize
-    @word = word
+    @words = words
   end
 
-  def match(words) #take in an array and return all matches in an array
+  def match(word) #take in an array and return all matches in an array
     word.collect {|w| w == }
   else []
   end

@@ -10,3 +10,5 @@ class Anagram
     array.select {|x| x.split("").sort == @name.split("").sort}  #returns an array for elements returning a true value 
   end
 end
+
+#sort - sorts self. comparison between a and b. 

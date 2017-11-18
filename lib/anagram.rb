@@ -7,6 +7,6 @@ class Anagram
   end
 
   def match(array) #take in an array and return all matches in an array
-    array.select {|w| w.split("").sort == @name.split("").sort }  #returns an array for elements returning a true value 
+    array.select {|w| %w.w.sort == @name.split("").sort }  #returns an array for elements returning a true value 
   end
 end
